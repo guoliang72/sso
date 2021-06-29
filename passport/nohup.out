@@ -1,0 +1,46 @@
+[OK] User Schema Created.
+WARNING: The `useMongoClient` option is no longer necessary in mongoose 5.x, please remove it.
+    at handleUseMongoClient (/home/gjm/nodejs-sso-example-master/node_modules/mongoose/lib/connection.js:845:17)
+    at NativeConnection.Connection.openUri (/home/gjm/nodejs-sso-example-master/node_modules/mongoose/lib/connection.js:637:7)
+    at Mongoose.connect (/home/gjm/nodejs-sso-example-master/node_modules/mongoose/lib/index.js:333:15)
+    at Object.<anonymous> (/home/gjm/nodejs-sso-example-master/passport/db.js:16:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/gjm/nodejs-sso-example-master/passport/app.js:12:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+(node:10269) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Server passport listening on port: 8080
+[DB] Mongoose connected to mongodb://localhost:27017/SSOserver
+[DB] Mongoose connecting to mongodb://localhost:27017/SSOserver
+(node:10269) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+[OK] User Schema Created.
+WARNING: The `useMongoClient` option is no longer necessary in mongoose 5.x, please remove it.
+    at handleUseMongoClient (/home/gjm/nodejs-sso-example-master/node_modules/mongoose/lib/connection.js:845:17)
+    at NativeConnection.Connection.openUri (/home/gjm/nodejs-sso-example-master/node_modules/mongoose/lib/connection.js:637:7)
+    at Mongoose.connect (/home/gjm/nodejs-sso-example-master/node_modules/mongoose/lib/index.js:333:15)
+    at Object.<anonymous> (/home/gjm/nodejs-sso-example-master/passport/db.js:16:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/gjm/nodejs-sso-example-master/passport/app.js:12:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+(node:17833) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Server passport listening on port: 8080
+[DB] Mongoose connected to mongodb://localhost:27017/SSOserver
+[DB] Mongoose connecting to mongodb://localhost:27017/SSOserver
+(node:17833) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
